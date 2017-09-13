@@ -2,7 +2,9 @@ import slick.jdbc.H2Profile.api._
 
 import scala.concurrent.Await
 import scala.concurrent.duration._
-import scala.concurrent.ExecutionContext.Implicits.global
+
+// for flatmap etc:
+//import scala.concurrent.ExecutionContext.Implicits.global
 
 object Example extends App {
 
